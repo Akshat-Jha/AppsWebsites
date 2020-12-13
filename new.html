@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="newcss.css">
+        <title></title>
+        <script>
+            function ToggleMenuShow(j){
+                var menuj = document.getElementById("Menu"+j);
+                if(menuj.style.display==="none"){
+                    menuj.style.display="block";
+                }
+                else{
+                    menuj.style.display="none";
+                }
+            }
+            function CollapseMenu(){
+                var menubutton = document.getElementById("MenuButton");
+                var menu = document.getElementById("Menu");
+                var bar = document.getElementById("VerticalBar");
+                var maincontent = document.getElementById("Main");
+                if(menu.style.display==="none"){
+                    menu.style.display="block";
+                    menubutton.src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem02IDE3aC0xMnYtMmgxMnYyem0wLTRoLTEydi0yaDEydjJ6bTAtNGgtMTJ2LTJoMTJ2MnoiLz48L3N2Zz4=";
+                    if(innerWidth>750){
+                    maincontent.style.left="240px";
+                    maincontent.style.right="0px";
+                    }
+                }
+                else{
+                    menu.style.display="none";
+                    menubutton.src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMnM1LjM3MyAxMiAxMiAxMiAxMi01LjM3MyAxMi0xMi01LjM3My0xMi0xMi0xMnptNiAxN2gtMTJ2LTJoMTJ2MnptMC00aC0xMnYtMmgxMnYyem0wLTRoLTEydi0yaDEydjJ6Ii8+PC9zdmc+";
+                    if(innerWidth>750){
+                    maincontent.style.left="120px";
+                    maincontent.style.right="120px";
+                    }
+                }
+            }
+            </script>
+             <script type="text/javascript" id="MathJax-script" async
+              src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+            </script>
+    </head>
+    <body>
+
+        <div id="Top">
+            <img id="MenuButton" onclick="CollapseMenu()" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem02IDE3aC0xMnYtMmgxMnYyem0wLTRoLTEydi0yaDEydjJ6bTAtNGgtMTJ2LTJoMTJ2MnoiLz48L3N2Zz4=">
+            <CENTER><img id="TopLogo" src="untitled (10).svg"></CENTER>
+        </div>
+        <div id="SubHead">
+
+        </div>
+        <div id="container1">
+        <div id="Menu">
+            <div class="LessonHead" onclick="ToggleMenuShow(1)">
+                <strong>The Derivative</strong>
+            </div>
+            <div id="Menu1">
+            <div>
+            <div class="LessonItem">
+                <div class="LessonItemIconContainer">
+                    <div class="LessonItemIcon"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem0tMyAxN3YtMTBsOSA1LjE0Ni05IDQuODU0eiIvPjwvc3ZnPg=="></div>
+                </div>
+                <div class="LessonItemTextContainer">
+                    <div class="LessonItemText">
+                    <strong>Reading: </strong>Lecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture Slides
+                    </div>
+                    <div class="LessonItemSubText">
+                    34 min
+                    </div>
+                </div>
+            </div> 
+            <div class="LessonProgress" id="progress1"></div>
+            </div>
+            <div>
+                <div class="LessonItem">
+                    <div class="LessonItemIconContainer">
+                        <div class="LessonItemIcon"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMgNXYxMy44ODNsLTEgLjExN3YtMTZjLTMuODk1LjExOS03LjUwNS43NjItMTAuMDAyIDIuMzE2LTIuNDk2LTEuNTU0LTYuMTAyLTIuMTk3LTkuOTk4LTIuMzE2djE2bC0xLS4xMTd2LTEzLjg4M2gtMXYxNWg5LjA1N2MxLjQ3OSAwIDEuNjQxIDEgMi45NDEgMSAxLjMwNCAwIDEuNDYxLTEgMi45NDItMWg5LjA2di0xNWgtMXptLTEyIDEzLjY0NWMtMS45NDYtLjc3Mi00LjEzNy0xLjI2OS03LTEuNDg0di0xMi4wNTFjMi4zNTIuMTk3IDQuOTk2LjY3NSA3IDEuOTIydjExLjYxM3ptOS0xLjQ4NGMtMi44NjMuMjE1LTUuMDU0LjcxMi03IDEuNDg0di0xMS42MTNjMi4wMDQtMS4yNDcgNC42NDgtMS43MjUgNy0xLjkyMnYxMi4wNTF6Ii8+PC9zdmc+"></div>
+                    </div>
+                    <div class="LessonItemTextContainer">
+                        <div class="LessonItemText">
+                        <strong>Reading: </strong>Lecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture Slides
+                        </div>
+                        <div class="LessonItemSubText">
+                        34 min
+                        </div>
+                    </div>
+                </div> 
+                <div class="LessonProgress" id="progress1"></div>
+                </div>
+            </div>  
+            <div class="LessonHead" onclick="ToggleMenuShow(2)">
+                <strong>Differentiation Rules</strong>
+            </div>
+            <div id="Menu2">
+            <div>
+            <div class="LessonItem">
+                <div class="LessonItemIconContainer">
+                    <div class="LessonItemIcon"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem0tMyAxN3YtMTBsOSA1LjE0Ni05IDQuODU0eiIvPjwvc3ZnPg=="></div>
+                </div>
+                <div class="LessonItemTextContainer">
+                    <div class="LessonItemText">
+                    <strong>Reading: </strong>Lecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture Slides
+                    </div>
+                    <div class="LessonItemSubText">
+                    34 min
+                    </div>
+                </div>
+            </div> 
+            <div class="LessonProgress" id="progress1"></div>
+            </div>
+            <div>
+                <div class="LessonItem">
+                    <div class="LessonItemIconContainer">
+                        <div class="LessonItemIcon"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMgNXYxMy44ODNsLTEgLjExN3YtMTZjLTMuODk1LjExOS03LjUwNS43NjItMTAuMDAyIDIuMzE2LTIuNDk2LTEuNTU0LTYuMTAyLTIuMTk3LTkuOTk4LTIuMzE2djE2bC0xLS4xMTd2LTEzLjg4M2gtMXYxNWg5LjA1N2MxLjQ3OSAwIDEuNjQxIDEgMi45NDEgMSAxLjMwNCAwIDEuNDYxLTEgMi45NDItMWg5LjA2di0xNWgtMXptLTEyIDEzLjY0NWMtMS45NDYtLjc3Mi00LjEzNy0xLjI2OS03LTEuNDg0di0xMi4wNTFjMi4zNTIuMTk3IDQuOTk2LjY3NSA3IDEuOTIydjExLjYxM3ptOS0xLjQ4NGMtMi44NjMuMjE1LTUuMDU0LjcxMi03IDEuNDg0di0xMS42MTNjMi4wMDQtMS4yNDcgNC42NDgtMS43MjUgNy0xLjkyMnYxMi4wNTF6Ii8+PC9zdmc+"></div>
+                    </div>
+                    <div class="LessonItemTextContainer">
+                        <div class="LessonItemText">
+                        <strong>Reading: </strong>Lecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture Slides
+                        </div>
+                        <div class="LessonItemSubText">
+                        34 min
+                        </div>
+                    </div>
+                </div> 
+                <div class="LessonProgress" id="progress1"></div>
+                </div>
+            </div> 
+            <div class="LessonHead" onclick="ToggleMenuShow(3)">
+                <strong>The Derivative</strong>
+            </div>
+            <div id="Menu3">
+            <div>
+            <div class="LessonItem">
+                <div class="LessonItemIconContainer">
+                    <div class="LessonItemIcon"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem0tMyAxN3YtMTBsOSA1LjE0Ni05IDQuODU0eiIvPjwvc3ZnPg=="></div>
+                </div>
+                <div class="LessonItemTextContainer">
+                    <div class="LessonItemText">
+                    <strong>Reading: </strong>Lecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture Slides
+                    </div>
+                    <div class="LessonItemSubText">
+                    34 min
+                    </div>
+                </div>
+            </div> 
+            <div class="LessonProgress" id="progress1"></div>
+            </div>
+            <div>
+                <div class="LessonItem">
+                    <div class="LessonItemIconContainer">
+                        <div class="LessonItemIcon"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMgNXYxMy44ODNsLTEgLjExN3YtMTZjLTMuODk1LjExOS03LjUwNS43NjItMTAuMDAyIDIuMzE2LTIuNDk2LTEuNTU0LTYuMTAyLTIuMTk3LTkuOTk4LTIuMzE2djE2bC0xLS4xMTd2LTEzLjg4M2gtMXYxNWg5LjA1N2MxLjQ3OSAwIDEuNjQxIDEgMi45NDEgMSAxLjMwNCAwIDEuNDYxLTEgMi45NDItMWg5LjA2di0xNWgtMXptLTEyIDEzLjY0NWMtMS45NDYtLjc3Mi00LjEzNy0xLjI2OS03LTEuNDg0di0xMi4wNTFjMi4zNTIuMTk3IDQuOTk2LjY3NSA3IDEuOTIydjExLjYxM3ptOS0xLjQ4NGMtMi44NjMuMjE1LTUuMDU0LjcxMi03IDEuNDg0di0xMS42MTNjMi4wMDQtMS4yNDcgNC42NDgtMS43MjUgNy0xLjkyMnYxMi4wNTF6Ii8+PC9zdmc+"></div>
+                    </div>
+                    <div class="LessonItemTextContainer">
+                        <div class="LessonItemText">
+                        <strong>Reading: </strong>Lecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture SlidesLecture Slides
+                        </div>
+                        <div class="LessonItemSubText">
+                        34 min
+                        </div>
+                    </div>
+                </div> 
+                <div class="LessonProgress" id="progress1"></div>
+                </div>
+            </div>   
+        </div>
+        <div id="Main">
+            <div id="MainContent">
+                Imagine you need to find the derivative of the function \(x sin(x)\). An obvious way to think about this derivative is using the fundamental definition of derivatives. That is <div class="overflowdiv">\[\frac{d(x sin(x))}{dx}=lim_{h\rightarrow0}\frac{(x+h)sin(x+h)-xsin(x)}{h}\]</div> As much as fun it is to compute these limits, the complexities quickly spiral out of control. To figure out a way to solve this problem of finding derivatives of products, we use the rule intuitively names the product rule.      <br>
+<CENTER><span style="font-size:35;">The Product Rule - Formula</span></CENTER><br> <div class="overflowdiv">\[\frac{d(\color{red}{f(x)}\cdot\color{blue}{g(x)})}{dx}=\color{red}{\frac{df}{dx}}\cdot\color{blue}{g(x)}+\color{red}{f(x)}\cdot\color{blue}{\frac{dg}{dx}}\] </div>In a nutshell, the product rule says that the derivative of two functions is the sum of the products of derivative of one function with the other function. Let us take an example, finding the derivative of the function \(xsin(x)\). <div class="overflowdiv">\[\frac{\color{red}{x}\color{blue}{sin(x)}}{dx}=\color{red}{\frac{d(x)}{dx}}\cdot\color{blue}{sin(x)}+\color{red}{(x)}\cdot\color{blue}{\frac{d(sin(x))}{dx}}\]</div> We know that the derivative of x with respect to itself is just 1 and the derivative of sin (x) with respect to x is cos(x), that is \(\color{red}{\frac{d(x)}{dx}=1}\) and \(\color{blue}{\frac{d(sin(x))}{dx}=cos(x)}\). Now just put everything in the expression and we would get<div class="overflowdiv"> \[\frac{\color{red}{x}\color{blue}{sin(x)}}{dx}=\color{red}{1}\cdot\color{blue}{sin(x)}+\color{red}{(x)}\cdot\color{blue}{cos(x)}=sin(x)+xcos(x)\]</div><br><CENTER><span style="font-size:35;">Proving the Product Rule</span></CENTER><br> The only formal tool we have in our arsenal to prove something about derivatives is the very definition of a derivative. Let's try to prove this useful rule using the definition. In the course of this definition, we would assume that the functions \(\color{red}{f}\) and \(\color{blue}{g}\) are differentiable an thus continuous.<div class="overflowdiv">\[\frac{d(\color{red}{f(x)}\cdot\color{blue}{g(x)})}{dx}=lim_{h\rightarrow0}\frac{\color{red}{f(x+h)}\cdot\color{blue}{g(x+h)}-\color{red}{f(x)}\cdot\color{blue}{g(x)}}{h}\]</div> There's not a whole lot that we can do with an expression like this (you might be tempted to put in the value of h to be zero in the expression but you would just get \(\frac{0}{0}\) just like in the case of all derivatives). Instead let's try manipulating the fraction to get something a little more insightful. The popular trick of adding and subtracting comes to our rescue here. If we add and subtract \(\color{red}{f(x)}\cdot\color{blue}{g(x+h)}\) or \(\color{red}{f(x+h)}\cdot\color{blue}{g(x)}\) in the numerator, it breaks down the derivative into easier manageable components. In this case let's try subtracting and adding \(\color{red}{f(x)}\cdot\color{blue}{g(x+h)}\) while you can try the other one as an exercise. <div class="overflowdiv" style="overflow:auto;">\[\frac{d(\color{red}{f(x)}\cdot\color{blue}{g(x)})}{dx}=lim_{h\rightarrow0}\frac{\color{red}{f(x+h)}\cdot\color{blue}{g(x+h)}-\color{red}{f(x)}\cdot\color{blue}{g(x+h)}+\color{red}{f(x)}\cdot\color{blue}{g(x+h)}-\color{red}{f(x)}\cdot\color{blue}{g(x)}}{h}\]</div>Let us now group similar terms <div class="overflowdiv">\[\frac{d(\color{red}{f(x)}\cdot\color{blue}{g(x)})}{dx}=lim_{h\rightarrow0}[\color{blue}{g(x+h)}(\frac{\color{red}{f(x+h)-f(x)}}{h})+\color{red}{f(x)}(\frac{\color{blue}{g(x+h)-g(x)}}{h})]\]</div>If we now evaluate this limit, we can observe that \(lim_{h\rightarrow0}\color{blue}{g(x+h)}=g(x)\), \(lim_{h\rightarrow0}\color{red}{\frac{f(x+h)-f(x)}{h}}=\frac{df}{dx}\) and \(lim_{h\rightarrow0}\color{blue}{\frac{g(x+h)-g(x)}{h}}=\frac{dg}{dx}\). And that's it, put in everything and we have the product rule. <div class="overflowdiv">\[\frac{d(\color{red}{f(x)}\cdot\color{blue}{g(x)})}{dx}=\color{red}{\frac{df}{dx}}\cdot\color{blue}{g(x)}+\color{red}{f(x)}\cdot\color{blue}{\frac{dg}{dx}}\]</div>
+            </div>
+        </div>
+
+    </div>
+        <!-- <div id="Footer">
+            ssffffffffffffffffffffffffffffffffffffffffffffffff
+        </div> -->
+        <script>
+
+        </script>
+    </body>
+</html>
